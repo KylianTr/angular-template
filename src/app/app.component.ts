@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-template';
+  public check() {
+    console.log("CD App");
+  }
 }
